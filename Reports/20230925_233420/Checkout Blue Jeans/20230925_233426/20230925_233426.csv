@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Checkout Blue Jeans,Chrome 116.0.0.0,,,2023-09-25 23:36:25,2023-09-25 23:37:22,57.107s,PASSED
+,,,,,,,
+Test Cases/Confirm Order,Chrome 116.0.0.0,,,2023-09-25 23:36:26,2023-09-25 23:37:22,56.758s,PASSED
+"callTestCase(findTestCase(""Enter Payment Information""), [:], STOP_ON_FAILURE)",Chrome 116.0.0.0,,,2023-09-25 23:36:26,2023-09-25 23:37:19,52.923s,PASSED
+"click(findTestObject(""Page_Demo Web Shop. Checkout/btnContinueConfirmOrder""))",Chrome 116.0.0.0,,,2023-09-25 23:37:19,2023-09-25 23:37:19,0.419s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Demo Web Shop. Checkout/strong_Your order has been successfully processed""), 0)",Chrome 116.0.0.0,,,2023-09-25 23:37:19,2023-09-25 23:37:21,1.660s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-09-25 23:37:21,2023-09-25 23:37:22,1.224s,PASSED
