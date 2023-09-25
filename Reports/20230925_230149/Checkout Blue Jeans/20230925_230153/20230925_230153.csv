@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Checkout Blue Jeans,,,,2023-09-25 23:03:31,2023-09-25 23:03:48,16.909s,FAILED
+,,,,,,,
+Test Cases/Confirm Order,,,,2023-09-25 23:03:45,2023-09-25 23:03:48,2.611s,FAILED
+"callTestCase(findTestCase(""Enter Payment Information""), [:], STOP_ON_FAILURE)",,,,2023-09-25 23:03:45,2023-09-25 23:03:48,2.601s,FAILED

@@ -17,12 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Enter Payment Information'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.openBrowser('')
 
-WebUI.click(findTestObject('Page_Demo Web Shop. Checkout/btnContinueConfirmOrder'))
+WebUI.navigateToUrl('https://demowebshop.tricentis.com/')
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Demo Web Shop. Checkout/strong_Your order has been successfully processed'), 
+WebUI.click(findTestObject('Object Repository/Page_Demo Web Shop/a_Digital downloads'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Demo Web Shop. Digital downloads/h1_Digital downloads'), 
     0)
+
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Demo Web Shop. Digital downloads/h1_Digital downloads'), 
+    'Digital downloads')
 
 WebUI.closeBrowser()
 

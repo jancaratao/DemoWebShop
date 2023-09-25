@@ -1,0 +1,57 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Categories,Chrome 116.0.0.0,,,2023-09-25 23:02:08,2023-09-25 23:03:18,1m - 9.424s,PASSED
+,,,,,,,
+Test Cases/Categories - Apparels and Shoes,Chrome 116.0.0.0,,,2023-09-25 23:02:09,2023-09-25 23:02:20,11.454s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-09-25 23:02:09,2023-09-25 23:02:13,3.768s,PASSED
+"navigateToUrl(""https://demowebshop.tricentis.com/"")",Chrome 116.0.0.0,,,2023-09-25 23:02:13,2023-09-25 23:02:17,3.860s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop/a_Apparel  Shoes""))",Chrome 116.0.0.0,,,2023-09-25 23:02:17,2023-09-25 23:02:18,1.591s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Demo Web Shop. Apparel  Shoes/h1_Apparel  Shoes""), 0)",Chrome 116.0.0.0,,,2023-09-25 23:02:18,2023-09-25 23:02:19,0.380s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Demo Web Shop. Apparel  Shoes/h1_Apparel  Shoes""), ""Apparel & Shoes"")",Chrome 116.0.0.0,,,2023-09-25 23:02:19,2023-09-25 23:02:19,0.379s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-09-25 23:02:19,2023-09-25 23:02:20,1.064s,PASSED
+,,,,,,,
+Test Cases/Categories - Books,Chrome 116.0.0.0,,,2023-09-25 23:02:20,2023-09-25 23:02:30,9.914s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-09-25 23:02:21,2023-09-25 23:02:23,2.576s,PASSED
+"navigateToUrl(""https://demowebshop.tricentis.com/"")",Chrome 116.0.0.0,,,2023-09-25 23:02:23,2023-09-25 23:02:27,3.800s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop/a_Books""))",Chrome 116.0.0.0,,,2023-09-25 23:02:27,2023-09-25 23:02:29,1.709s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Demo Web Shop. Books/h1_Books""), ""Books"")",Chrome 116.0.0.0,,,2023-09-25 23:02:29,2023-09-25 23:02:29,0.380s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-09-25 23:02:29,2023-09-25 23:02:30,1.013s,PASSED
+,,,,,,,
+Test Cases/Categories - Computers,Chrome 116.0.0.0,,,2023-09-25 23:02:30,2023-09-25 23:02:40,9.447s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-09-25 23:02:30,2023-09-25 23:02:33,2.406s,PASSED
+"navigateToUrl(""https://demowebshop.tricentis.com/"")",Chrome 116.0.0.0,,,2023-09-25 23:02:33,2023-09-25 23:02:36,3.623s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop/a_Computers""))",Chrome 116.0.0.0,,,2023-09-25 23:02:36,2023-09-25 23:02:38,1.255s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Demo Web Shop. Computers/h1_Computers""), 0)",Chrome 116.0.0.0,,,2023-09-25 23:02:38,2023-09-25 23:02:38,0.370s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Demo Web Shop. Computers/h1_Computers""), ""Computers"")",Chrome 116.0.0.0,,,2023-09-25 23:02:38,2023-09-25 23:02:38,0.372s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-09-25 23:02:38,2023-09-25 23:02:40,1.072s,PASSED
+,,,,,,,
+Test Cases/Categories - Digital downloads,Chrome 116.0.0.0,,,2023-09-25 23:02:40,2023-09-25 23:02:49,9.518s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-09-25 23:02:40,2023-09-25 23:02:42,2.515s,PASSED
+"navigateToUrl(""https://demowebshop.tricentis.com/"")",Chrome 116.0.0.0,,,2023-09-25 23:02:42,2023-09-25 23:02:46,3.656s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop/a_Digital downloads""))",Chrome 116.0.0.0,,,2023-09-25 23:02:46,2023-09-25 23:02:47,1.307s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Demo Web Shop. Digital downloads/h1_Digital downloads""), 0)",Chrome 116.0.0.0,,,2023-09-25 23:02:47,2023-09-25 23:02:48,0.343s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Demo Web Shop. Digital downloads/h1_Digital downloads""), ""Digital downloads"")",Chrome 116.0.0.0,,,2023-09-25 23:02:48,2023-09-25 23:02:48,0.347s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-09-25 23:02:48,2023-09-25 23:02:49,0.988s,PASSED
+,,,,,,,
+Test Cases/Categories - Electronics,Chrome 116.0.0.0,,,2023-09-25 23:02:49,2023-09-25 23:02:59,9.583s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-09-25 23:02:49,2023-09-25 23:02:52,2.425s,PASSED
+"navigateToUrl(""https://demowebshop.tricentis.com/"")",Chrome 116.0.0.0,,,2023-09-25 23:02:52,2023-09-25 23:02:56,3.642s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop/a_Electronics""))",Chrome 116.0.0.0,,,2023-09-25 23:02:56,2023-09-25 23:02:57,1.464s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Demo Web Shop. Electronics/h1_Electronics""), 0)",Chrome 116.0.0.0,,,2023-09-25 23:02:57,2023-09-25 23:02:57,0.352s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Demo Web Shop. Electronics/h1_Electronics""), ""Electronics"")",Chrome 116.0.0.0,,,2023-09-25 23:02:57,2023-09-25 23:02:58,0.364s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-09-25 23:02:58,2023-09-25 23:02:59,0.986s,PASSED
+,,,,,,,
+Test Cases/Categories - Gift Cards,Chrome 116.0.0.0,,,2023-09-25 23:02:59,2023-09-25 23:03:08,9.471s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-09-25 23:02:59,2023-09-25 23:03:01,2.372s,PASSED
+"navigateToUrl(""https://demowebshop.tricentis.com/"")",Chrome 116.0.0.0,,,2023-09-25 23:03:01,2023-09-25 23:03:05,3.667s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop/a_Gift Cards""))",Chrome 116.0.0.0,,,2023-09-25 23:03:05,2023-09-25 23:03:06,1.254s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Demo Web Shop. Gift Cards/h1_Gift Cards""), 0)",Chrome 116.0.0.0,,,2023-09-25 23:03:06,2023-09-25 23:03:07,0.354s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Demo Web Shop. Gift Cards/h1_Gift Cards""), ""Gift Cards"")",Chrome 116.0.0.0,,,2023-09-25 23:03:07,2023-09-25 23:03:07,0.445s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-09-25 23:03:07,2023-09-25 23:03:08,1.011s,PASSED
+,,,,,,,
+Test Cases/Categories - Jewelry,Chrome 116.0.0.0,,,2023-09-25 23:03:08,2023-09-25 23:03:18,9.644s,PASSED
+"openBrowser("""")",Chrome 116.0.0.0,,,2023-09-25 23:03:09,2023-09-25 23:03:11,2.382s,PASSED
+"navigateToUrl(""https://demowebshop.tricentis.com/"")",Chrome 116.0.0.0,,,2023-09-25 23:03:11,2023-09-25 23:03:15,3.726s,PASSED
+"click(findTestObject(""Object Repository/Page_Demo Web Shop/a_Jewelry""))",Chrome 116.0.0.0,,,2023-09-25 23:03:15,2023-09-25 23:03:16,1.384s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_Demo Web Shop. Jewelry/h1_Jewelry""), 0)",Chrome 116.0.0.0,,,2023-09-25 23:03:16,2023-09-25 23:03:16,0.367s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_Demo Web Shop. Jewelry/h1_Jewelry""), ""Jewelry"")",Chrome 116.0.0.0,,,2023-09-25 23:03:16,2023-09-25 23:03:17,0.384s,PASSED
+closeBrowser(),Chrome 116.0.0.0,,,2023-09-25 23:03:17,2023-09-25 23:03:18,1.045s,PASSED
