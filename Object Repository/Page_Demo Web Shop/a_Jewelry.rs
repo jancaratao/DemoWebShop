@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>a.hover</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[contains(text(),'Jewelry')])[3]</value>
+         <value>//a[contains(text(),'Jewelry')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>cf8745eb-1217-48e4-b687-d45410613af0</webElementGuid>
+      <webElementGuid>da9e206f-ee17-47dc-8e2b-242ea65831d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/jewelry</value>
-      <webElementGuid>2f3303b2-49e0-4f2b-871a-e5e13d87999c</webElementGuid>
+      <webElementGuid>118bce21-70ce-4da1-b39b-75dfef0a7084</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,18 +39,100 @@
       <type>Main</type>
       <value>Jewelry
         </value>
-      <webElementGuid>01350e01-beea-4ef5-b47e-20bde3e28fe8</webElementGuid>
+      <webElementGuid>8996eef0-df47-45bf-b3e0-d9291e6d0b2a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-wrapper-main&quot;]/div[@class=&quot;leftside-3&quot;]/div[@class=&quot;block block-category-navigation&quot;]/div[@class=&quot;listbox&quot;]/ul[@class=&quot;list&quot;]/li[@class=&quot;inactive&quot;]/a[1]</value>
-      <webElementGuid>e622307a-1879-4772-b50b-1dd7ec4b8abd</webElementGuid>
+      <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;header-menu&quot;]/ul[@class=&quot;top-menu&quot;]/li[6]/a[@class=&quot;hover&quot;]</value>
+      <webElementGuid>10eb0406-0f99-4fc5-98bc-39c9e4b467e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hover</value>
+      <webElementGuid>c75b180e-7a80-4c72-a2bb-daadceb918dd</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Jewelry')]</value>
+      <webElementGuid>d23f787d-8f0d-42a5-86d3-b956ee1351c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Digital downloads'])[1]/following::a[1]</value>
+      <webElementGuid>ace5c428-60c2-4435-9a1d-b823f0cdd873</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apparel &amp; Shoes'])[1]/following::a[2]</value>
+      <webElementGuid>b13b5d28-90f8-4826-8e1f-529f6a0a7275</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gift Cards'])[1]/preceding::a[1]</value>
+      <webElementGuid>8b219ca9-53f1-4de9-8b13-5194ba2443ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Categories'])[1]/preceding::a[2]</value>
+      <webElementGuid>7a14a61b-5050-43de-bd46-413d2cb8b00a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Jewelry']/parent::*</value>
+      <webElementGuid>25c4f858-ff60-4b3b-916f-0b4bdf6dc84a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/jewelry')]</value>
+      <webElementGuid>27d17cab-b95e-4872-84dc-cd9d846c3fae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/a</value>
+      <webElementGuid>0e88c0fe-4630-440c-ad85-5296271533e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/jewelry' and (text() = 'Jewelry
+        ' or . = 'Jewelry
+        ')]</value>
+      <webElementGuid>6921be75-d4e6-424c-890b-bc14c133fe5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
@@ -104,15 +186,5 @@
       <type>Main</type>
       <value>//div/div[4]/div/div/div[2]/ul/li[6]/a</value>
       <webElementGuid>83e3a0cc-3a5d-409f-9bce-ce0e3d4a7383</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[@href = '/jewelry' and (text() = 'Jewelry
-        ' or . = 'Jewelry
-        ')]</value>
-      <webElementGuid>33eabf3f-a6c4-47f5-ae29-df9f82dd458b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

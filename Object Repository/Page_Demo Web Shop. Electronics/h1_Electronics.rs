@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>f45020cc-6a67-4455-b5cc-52aa41f63e64</webElementGuid>
+      <webElementGuid>ba2b47e5-a9b5-4157-a058-21174f252c11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Electronics</value>
-      <webElementGuid>84a0e44f-1632-48e5-a968-93b047e40a12</webElementGuid>
+      <webElementGuid>f4ff83c5-89ba-4a5c-8388-2b1b9f1ea010</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-wrapper-main&quot;]/div[@class=&quot;center-2&quot;]/div[@class=&quot;page category-page&quot;]/div[@class=&quot;page-title&quot;]/h1[1]</value>
-      <webElementGuid>4e20b5d7-b7c2-4b66-833a-7016744a0f20</webElementGuid>
+      <webElementGuid>a160458a-663d-478b-9e55-a4cb9eda08ec</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Electronics'])[4]/following::h1[1]</value>
-      <webElementGuid>d20d9629-8761-4cad-82c5-286b7fab33c2</webElementGuid>
+      <webElementGuid>e7b0a644-ca13-4e26-bf0d-d87a5612a3a0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='/'])[1]/following::h1[1]</value>
-      <webElementGuid>ad5d75a8-21bf-4b3e-b528-5f1921859e50</webElementGuid>
+      <webElementGuid>c159e4ff-d18e-4662-8560-eee5948ffaad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Camera, photo'])[4]/preceding::h1[1]</value>
-      <webElementGuid>b1ca7b05-7aae-44fd-8268-3a42055fba29</webElementGuid>
+      <webElementGuid>10636f7b-d4af-47aa-8d0d-b29627075d74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cell phones'])[4]/preceding::h1[1]</value>
-      <webElementGuid>820331dc-8e03-435c-836a-2bedf7bd6233</webElementGuid>
+      <webElementGuid>12bec406-0b71-4eab-b3a6-1b780108f2a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>55a55cbf-4160-4177-adc8-5372dd386643</webElementGuid>
+      <webElementGuid>234ef659-1f3b-4c78-b51c-ea1c5a89ea17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Electronics' or . = 'Electronics')]</value>
-      <webElementGuid>89c65a4a-4a1f-4740-a0a2-6c859fa378a3</webElementGuid>
+      <webElementGuid>45e9cc89-03db-4534-ba68-94388765346b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

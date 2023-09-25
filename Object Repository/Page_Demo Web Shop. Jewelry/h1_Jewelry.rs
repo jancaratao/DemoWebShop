@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>6397693f-abe6-4aeb-bbf6-34c069772549</webElementGuid>
+      <webElementGuid>5062846b-a443-4f10-b832-162a2f512618</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Jewelry</value>
-      <webElementGuid>0514e74d-18ce-4cfb-9272-f82d8366ca5c</webElementGuid>
+      <webElementGuid>0fb499b6-83fc-4b8d-a58e-bae57ddf355d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-wrapper-main&quot;]/div[@class=&quot;center-2&quot;]/div[@class=&quot;page category-page&quot;]/div[@class=&quot;page-title&quot;]/h1[1]</value>
-      <webElementGuid>9942ff72-0239-4e96-8ecc-3214755f77fa</webElementGuid>
+      <webElementGuid>7579d1ea-735f-49ef-a39c-a581fd8b7ed6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jewelry'])[4]/following::h1[1]</value>
-      <webElementGuid>1390f83e-f1bb-4b96-b1a4-01624fdcb965</webElementGuid>
+      <webElementGuid>f125cc25-9b8f-41bf-834d-1c07f4c5d115</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='/'])[1]/following::h1[1]</value>
-      <webElementGuid>9a51435e-10a0-4736-a2b3-9debd04c3158</webElementGuid>
+      <webElementGuid>59a86178-b4ef-4bb7-b1f6-929c51e2a493</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View as'])[1]/preceding::h1[1]</value>
-      <webElementGuid>fd02aae9-a75c-4fd7-ae8c-1f4a273fff94</webElementGuid>
+      <webElementGuid>b0a0529d-d679-4b48-8379-f930b9e06d49</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sort by'])[1]/preceding::h1[1]</value>
-      <webElementGuid>8e6e8da3-fb96-467c-adcd-e273fa14c62f</webElementGuid>
+      <webElementGuid>c5d9e9b7-cbf5-444c-a70b-e50e2a6bae57</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>6e112e68-1272-4b09-b8b8-fc26cecc4d6e</webElementGuid>
+      <webElementGuid>54a39dcb-c991-40f3-8cf1-acbf6c4884e3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Jewelry' or . = 'Jewelry')]</value>
-      <webElementGuid>e322b6f4-ffdc-4ad0-8a7f-b455dad7ea30</webElementGuid>
+      <webElementGuid>eefceb5f-09b8-40f7-b322-4395aa21e3e4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

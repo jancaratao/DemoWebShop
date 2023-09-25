@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
+         <value>a.hover</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[contains(text(),'Digital downloads')])[3]</value>
+         <value>//a[contains(text(),'Digital downloads')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>84a1c638-edde-4ed5-b477-c36e32bee01f</webElementGuid>
+      <webElementGuid>f6c4e2d9-1d07-4b28-8440-ea09c712a9b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/digital-downloads</value>
-      <webElementGuid>284617aa-7bd6-411a-8293-69fcaf207efa</webElementGuid>
+      <webElementGuid>6ae9f63e-85bf-46b1-9d24-5fb8eeb2367d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,18 +39,100 @@
       <type>Main</type>
       <value>Digital downloads
         </value>
-      <webElementGuid>24b26405-78e1-4213-81ab-92a06867702c</webElementGuid>
+      <webElementGuid>d0cf295e-5a68-4423-8c11-4213d22d2c23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-wrapper-main&quot;]/div[@class=&quot;leftside-3&quot;]/div[@class=&quot;block block-category-navigation&quot;]/div[@class=&quot;listbox&quot;]/ul[@class=&quot;list&quot;]/li[@class=&quot;inactive&quot;]/a[1]</value>
-      <webElementGuid>6f72ee2e-7073-4b72-b604-fa13637b9959</webElementGuid>
+      <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;header-menu&quot;]/ul[@class=&quot;top-menu&quot;]/li[5]/a[@class=&quot;hover&quot;]</value>
+      <webElementGuid>89bbf533-4040-42fb-9fc0-20b80f8fc9f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hover</value>
+      <webElementGuid>f571ae86-187b-4432-ab08-5db265004b14</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Digital downloads')]</value>
+      <webElementGuid>cfd79b10-873e-450f-a589-0705f04f4a12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apparel &amp; Shoes'])[1]/following::a[1]</value>
+      <webElementGuid>dd9b88d4-f5bb-4b83-8095-53cd2aeccce6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cell phones'])[1]/following::a[2]</value>
+      <webElementGuid>8e490325-b232-4fcf-af24-e1b946567542</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Jewelry'])[1]/preceding::a[1]</value>
+      <webElementGuid>e9b74496-5202-489f-a86e-860a80ed396c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gift Cards'])[1]/preceding::a[2]</value>
+      <webElementGuid>f8f22b05-628d-455a-be9a-c91206d87eeb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Digital downloads']/parent::*</value>
+      <webElementGuid>12a86575-5c5b-4e1e-9fa1-df2c6e5d0a3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/digital-downloads')]</value>
+      <webElementGuid>d138b160-b1b3-4b7a-8668-e5e663287b43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/a</value>
+      <webElementGuid>2b46ebe3-b518-4481-b94c-38509d097eb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/digital-downloads' and (text() = 'Digital downloads
+        ' or . = 'Digital downloads
+        ')]</value>
+      <webElementGuid>921ceec2-92a0-429c-a2c3-a9607cc9ea30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
@@ -104,15 +186,5 @@
       <type>Main</type>
       <value>//div/div[4]/div/div/div[2]/ul/li[5]/a</value>
       <webElementGuid>34dda602-94d9-4264-a4ed-62eb6c9365dc</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[@href = '/digital-downloads' and (text() = 'Digital downloads
-        ' or . = 'Digital downloads
-        ')]</value>
-      <webElementGuid>96ff23a3-f037-4b26-a650-a00bb73bc073</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

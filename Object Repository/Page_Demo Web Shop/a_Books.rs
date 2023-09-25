@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>li.inactive > a</value>
+         <value>a.hover</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//a[contains(text(),'Books')])[3]</value>
+         <value>//a[contains(text(),'Books')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>680f64f2-92c3-4588-8a2b-ed9c7d6c44f5</webElementGuid>
+      <webElementGuid>a854a71e-0db7-42c4-b5ba-85b37f661710</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/books</value>
-      <webElementGuid>d4a92ed1-39a7-4fc8-94e2-18ae526b38c3</webElementGuid>
+      <webElementGuid>aa582eab-cd33-4471-a908-aab4dc06e988</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,18 +39,100 @@
       <type>Main</type>
       <value>Books
         </value>
-      <webElementGuid>a14fdfb1-f7af-475f-a41d-6cbd5045412c</webElementGuid>
+      <webElementGuid>052c9e1d-5f3d-4d1e-aecd-c00702f56588</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-wrapper-main&quot;]/div[@class=&quot;leftside-3&quot;]/div[@class=&quot;block block-category-navigation&quot;]/div[@class=&quot;listbox&quot;]/ul[@class=&quot;list&quot;]/li[@class=&quot;inactive&quot;]/a[1]</value>
-      <webElementGuid>f28ceb96-1ddd-401f-9f5f-1bbc452aba53</webElementGuid>
+      <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;header-menu&quot;]/ul[@class=&quot;top-menu&quot;]/li[1]/a[@class=&quot;hover&quot;]</value>
+      <webElementGuid>a21e0bc0-05d6-43d5-a78c-9fa05a9b869b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hover</value>
+      <webElementGuid>8f734aa6-eeb7-43ad-a3b0-12938f079faf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Books')]</value>
+      <webElementGuid>41c85ca4-dfdb-4277-b9e0-2298b81703e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You have no items in your shopping cart.'])[1]/following::a[1]</value>
+      <webElementGuid>da4e082c-0c7a-4efb-8510-9fd10178f065</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(0)'])[2]/following::a[1]</value>
+      <webElementGuid>d314b586-0df8-45e5-a9e5-5059c22ac1bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Computers'])[1]/preceding::a[1]</value>
+      <webElementGuid>5724a988-d1d5-4e37-bdaa-fdf8634bda4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Desktops'])[1]/preceding::a[2]</value>
+      <webElementGuid>ee9c83fc-6d89-45af-b584-31e24d89f9b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Books']/parent::*</value>
+      <webElementGuid>67829aa5-1f59-4412-910f-b1594861257e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/books')]</value>
+      <webElementGuid>b5a141e6-3b29-41f5-9f7f-d643331b2572</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ul/li/a</value>
+      <webElementGuid>f8437916-330c-4ebe-9806-3f00d78d6243</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/books' and (text() = 'Books
+        ' or . = 'Books
+        ')]</value>
+      <webElementGuid>e9c78b83-0ab4-416f-a20f-b05517366880</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
@@ -104,15 +186,5 @@
       <type>Main</type>
       <value>//div/div[4]/div/div/div[2]/ul/li/a</value>
       <webElementGuid>ee365d1c-37d0-4739-957f-c7cb84f35b41</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[@href = '/books' and (text() = 'Books
-        ' or . = 'Books
-        ')]</value>
-      <webElementGuid>9ef0a550-c356-47f5-92df-9abebf07dc6f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

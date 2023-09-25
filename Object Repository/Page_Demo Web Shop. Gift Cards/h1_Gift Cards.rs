@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>101d4b1a-f727-43f4-b2d5-850bbf4ab5ff</webElementGuid>
+      <webElementGuid>91bc5b8d-e7cc-4633-ba2d-fb6a9471caff</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Gift Cards</value>
-      <webElementGuid>ea139776-a44b-40b4-97d8-0d8d9fdf412d</webElementGuid>
+      <webElementGuid>215d4d6e-bafb-4797-925b-e54a1909ebe1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-wrapper-main&quot;]/div[@class=&quot;center-2&quot;]/div[@class=&quot;page category-page&quot;]/div[@class=&quot;page-title&quot;]/h1[1]</value>
-      <webElementGuid>a4475882-6902-4014-a4dc-145fb0b2a066</webElementGuid>
+      <webElementGuid>d8c27d1d-c261-4894-9e57-bbbf6ea189c7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Gift Cards'])[4]/following::h1[1]</value>
-      <webElementGuid>d9719424-1361-401d-aba1-462f55102513</webElementGuid>
+      <webElementGuid>2c94bb0d-3a39-4bad-a5c1-b1b9c196bba9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='/'])[1]/following::h1[1]</value>
-      <webElementGuid>85f7ab29-966c-45da-9222-cad1312b7441</webElementGuid>
+      <webElementGuid>3edd7052-3c17-4898-af3e-48787cb9f14d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View as'])[1]/preceding::h1[1]</value>
-      <webElementGuid>75ac2faa-5d03-4dc2-9206-744bc21d4d55</webElementGuid>
+      <webElementGuid>75e53b29-75b7-45c5-8a7c-e7ce6d7218b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sort by'])[1]/preceding::h1[1]</value>
-      <webElementGuid>c82043be-9593-4cf1-9bb8-1f5a6f001570</webElementGuid>
+      <webElementGuid>b739a923-bead-468b-8d33-ed32c613c304</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>130892d2-c32e-4f7f-a4e0-02b122855f26</webElementGuid>
+      <webElementGuid>f3d20814-55fc-45a4-a9bf-a6cee3937569</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Gift Cards' or . = 'Gift Cards')]</value>
-      <webElementGuid>d02bedf0-f2cd-4645-bd8c-d597f514d040</webElementGuid>
+      <webElementGuid>55b69642-f6ab-45cb-b57f-355afbafac39</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

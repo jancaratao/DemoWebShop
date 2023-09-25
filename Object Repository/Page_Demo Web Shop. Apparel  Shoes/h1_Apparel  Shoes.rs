@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>e7bd375e-ed5a-4345-8fd9-6c8ce4530ecf</webElementGuid>
+      <webElementGuid>2e099dc2-cf94-472a-8c21-9dcf22d97b72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Apparel &amp; Shoes</value>
-      <webElementGuid>632f9328-c985-41ee-9054-ad7c956bbf22</webElementGuid>
+      <webElementGuid>8a4a7d20-4cda-46ff-abef-7fbc5783c28d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-wrapper-main&quot;]/div[@class=&quot;center-2&quot;]/div[@class=&quot;page category-page&quot;]/div[@class=&quot;page-title&quot;]/h1[1]</value>
-      <webElementGuid>7eee6678-355a-4e59-9cf5-bef8c5694291</webElementGuid>
+      <webElementGuid>4e38b550-3fb9-4c67-81dc-164ae8ba01cb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Apparel &amp; Shoes'])[4]/following::h1[1]</value>
-      <webElementGuid>f77250d5-3a80-45d1-a929-a28f3b1d789f</webElementGuid>
+      <webElementGuid>e35d8c12-e162-4996-bc94-966318716cee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='/'])[1]/following::h1[1]</value>
-      <webElementGuid>95786471-d2ca-474d-b7a7-3baf285cde9e</webElementGuid>
+      <webElementGuid>6aaaded3-f667-498e-b362-5e20a82de1d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View as'])[1]/preceding::h1[1]</value>
-      <webElementGuid>496bd9a6-03b1-4c4a-88ed-071261ad92fa</webElementGuid>
+      <webElementGuid>98fc724e-0cce-4aef-a7d6-3b83194153a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sort by'])[1]/preceding::h1[1]</value>
-      <webElementGuid>0d789a02-1fc8-4f26-b41f-f35a195539af</webElementGuid>
+      <webElementGuid>d6dcb5db-d9d8-4d64-86e2-ba6b6784ecb2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>78bcce43-818c-4536-8c90-63998be90604</webElementGuid>
+      <webElementGuid>71887070-be65-4cf7-b912-6c426cfbc673</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Apparel &amp; Shoes' or . = 'Apparel &amp; Shoes')]</value>
-      <webElementGuid>702dc3c2-bb60-42e8-909c-02cf8ecb9e9a</webElementGuid>
+      <webElementGuid>62bad5d7-2161-4bd7-8c10-3a6dad06af06</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Top Menu" time="74.099" tests="7" failures="0" errors="0">
+   <testsuite name="Top Menu" tests="7" failures="0" errors="0" time="74.099" skipped="0" timestamp="2023-09-25 23:28:09" hostname="jan.mark.p.caratao - CBEN-93WY3D3-LX.dir.svc.accenture.com" id="Test Suites/Top Menu">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\jan.mark.p.caratao\\git\\DemoWebShop\\Reports\\20230925_232748\\Top Menu\\20230925_232748"/>
+         <property name="logFiles" value="C:\\Users\\jan.mark.p.caratao\\git\\DemoWebShop\\Reports\\20230925_232748\\Top Menu\\20230925_232748\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jan.mark.p.caratao - CBEN-93WY3D3-LX.dir.svc.accenture.com"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 116.0.0.0"/>
+         <property name="hostAddress" value="192.168.68.114"/>
+         <property name="sessionId" value="3234006568ac978093a6562531e1ef8e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Top Menu - Apparel and Shoes" time="12.281" classname="Test Cases/Top Menu - Apparel and Shoes" status="PASSED">
+         <system-out><![CDATA[2023-09-25 23:28:09 - [TEST_CASE][PASSED] - Test Cases/Top Menu - Apparel and Shoes: Test Cases/Top Menu - Apparel and Shoes
+
+2023-09-25 23:28:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-09-25 23:28:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-09-25 23:28:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-25 23:28:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-09-25 23:28:14 - [TEST_STEP][PASSED] - navigateToUrl("https://demowebshop.tricentis.com/"): Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+2023-09-25 23:28:18 - [MESSAGE][PASSED] - Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+2023-09-25 23:28:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop/a_Apparel  Shoes")): Object: 'Object Repository/Page_Demo Web Shop/a_Apparel  Shoes' is clicked on
+
+2023-09-25 23:28:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop/a_Apparel  Shoes' is clicked on
+
+2023-09-25 23:28:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Demo Web Shop. Apparel  Shoes/h1_Apparel  Shoes"), 0): Object 'Object Repository/Page_Demo Web Shop. Apparel  Shoes/h1_Apparel  Shoes' is present
+
+2023-09-25 23:28:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-25 23:28:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Demo Web Shop. Apparel  Shoes/h1_Apparel  Shoes' is present
+
+2023-09-25 23:28:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Demo Web Shop. Apparel  Shoes/h1_Apparel  Shoes"), "Apparel & Shoes"): Actual text and expected text of test object 'Object Repository/Page_Demo Web Shop. Apparel  Shoes/h1_Apparel  Shoes' are matched.
+
+2023-09-25 23:28:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Demo Web Shop. Apparel  Shoes/h1_Apparel  Shoes' are matched.
+
+2023-09-25 23:28:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-09-25 23:28:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Top Menu - Books" time="10.072" classname="Test Cases/Top Menu - Books" status="PASSED">
+         <system-out><![CDATA[2023-09-25 23:28:21 - [TEST_CASE][PASSED] - Test Cases/Top Menu - Books: Test Cases/Top Menu - Books
+
+2023-09-25 23:28:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-09-25 23:28:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-09-25 23:28:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-25 23:28:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-09-25 23:28:24 - [TEST_STEP][PASSED] - navigateToUrl("https://demowebshop.tricentis.com/"): Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+2023-09-25 23:28:28 - [MESSAGE][PASSED] - Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+2023-09-25 23:28:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop/a_Books")): Object: 'Object Repository/Page_Demo Web Shop/a_Books' is clicked on
+
+2023-09-25 23:28:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop/a_Books' is clicked on
+
+2023-09-25 23:28:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Demo Web Shop. Books/h1_Books"), 0): Object 'Object Repository/Page_Demo Web Shop. Books/h1_Books' is present
+
+2023-09-25 23:28:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-25 23:28:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Demo Web Shop. Books/h1_Books' is present
+
+2023-09-25 23:28:30 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Demo Web Shop. Books/h1_Books"), "Books"): Actual text and expected text of test object 'Object Repository/Page_Demo Web Shop. Books/h1_Books' are matched.
+
+2023-09-25 23:28:30 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Demo Web Shop. Books/h1_Books' are matched.
+
+2023-09-25 23:28:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-09-25 23:28:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Top Menu - Computers" time="10.24" classname="Test Cases/Top Menu - Computers" status="PASSED">
+         <system-out><![CDATA[2023-09-25 23:28:31 - [TEST_CASE][PASSED] - Test Cases/Top Menu - Computers: Test Cases/Top Menu - Computers
+
+2023-09-25 23:28:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-09-25 23:28:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-09-25 23:28:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-25 23:28:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-09-25 23:28:34 - [TEST_STEP][PASSED] - navigateToUrl("https://demowebshop.tricentis.com/"): Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+2023-09-25 23:28:38 - [MESSAGE][PASSED] - Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+2023-09-25 23:28:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop/a_Computers")): Object: 'Object Repository/Page_Demo Web Shop/a_Computers' is clicked on
+
+2023-09-25 23:28:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop/a_Computers' is clicked on
+
+2023-09-25 23:28:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Demo Web Shop. Computers/strong_Computers"), 0): Object 'Object Repository/Page_Demo Web Shop. Computers/strong_Computers' is present
+
+2023-09-25 23:28:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-25 23:28:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Demo Web Shop. Computers/strong_Computers' is present
+
+2023-09-25 23:28:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Demo Web Shop. Computers/h1_Computers"), "Computers"): Actual text and expected text of test object 'Object Repository/Page_Demo Web Shop. Computers/h1_Computers' are matched.
+
+2023-09-25 23:28:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Demo Web Shop. Computers/h1_Computers' are matched.
+
+2023-09-25 23:28:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-09-25 23:28:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Top Menu - Digital downloads" time="10.454" classname="Test Cases/Top Menu - Digital downloads" status="PASSED">
+         <system-out><![CDATA[2023-09-25 23:28:42 - [TEST_CASE][PASSED] - Test Cases/Top Menu - Digital downloads: Test Cases/Top Menu - Digital downloads
+
+2023-09-25 23:28:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-09-25 23:28:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-09-25 23:28:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-25 23:28:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-09-25 23:28:45 - [TEST_STEP][PASSED] - navigateToUrl("https://demowebshop.tricentis.com/"): Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+2023-09-25 23:28:49 - [MESSAGE][PASSED] - Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+2023-09-25 23:28:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop/a_Digital downloads")): Object: 'Object Repository/Page_Demo Web Shop/a_Digital downloads' is clicked on
+
+2023-09-25 23:28:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop/a_Digital downloads' is clicked on
+
+2023-09-25 23:28:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Demo Web Shop. Digital downloads/h1_Digital downloads"), 0): Object 'Object Repository/Page_Demo Web Shop. Digital downloads/h1_Digital downloads' is present
+
+2023-09-25 23:28:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-25 23:28:51 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Demo Web Shop. Digital downloads/h1_Digital downloads' is present
+
+2023-09-25 23:28:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Demo Web Shop. Digital downloads/h1_Digital downloads"), "Digital downloads"): Actual text and expected text of test object 'Object Repository/Page_Demo Web Shop. Digital downloads/h1_Digital downloads' are matched.
+
+2023-09-25 23:28:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Demo Web Shop. Digital downloads/h1_Digital downloads' are matched.
+
+2023-09-25 23:28:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-09-25 23:28:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Top Menu - Electronics" time="10.6" classname="Test Cases/Top Menu - Electronics" status="PASSED">
+         <system-out><![CDATA[2023-09-25 23:28:52 - [TEST_CASE][PASSED] - Test Cases/Top Menu - Electronics: Test Cases/Top Menu - Electronics
+
+2023-09-25 23:28:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-09-25 23:28:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-09-25 23:28:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-25 23:28:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-09-25 23:28:55 - [TEST_STEP][PASSED] - navigateToUrl("https://demowebshop.tricentis.com/"): Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+2023-09-25 23:29:00 - [MESSAGE][PASSED] - Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+2023-09-25 23:29:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop/a_Electronics")): Object: 'Object Repository/Page_Demo Web Shop/a_Electronics' is clicked on
+
+2023-09-25 23:29:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop/a_Electronics' is clicked on
+
+2023-09-25 23:29:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Demo Web Shop. Electronics/h1_Electronics"), 0): Object 'Object Repository/Page_Demo Web Shop. Electronics/h1_Electronics' is present
+
+2023-09-25 23:29:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-25 23:29:01 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Demo Web Shop. Electronics/h1_Electronics' is present
+
+2023-09-25 23:29:01 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Demo Web Shop. Electronics/h1_Electronics"), "Electronics"): Actual text and expected text of test object 'Object Repository/Page_Demo Web Shop. Electronics/h1_Electronics' are matched.
+
+2023-09-25 23:29:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Demo Web Shop. Electronics/h1_Electronics' are matched.
+
+2023-09-25 23:29:02 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-09-25 23:29:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Top Menu - Gift cards" time="10.027" classname="Test Cases/Top Menu - Gift cards" status="PASSED">
+         <system-out><![CDATA[2023-09-25 23:29:03 - [TEST_CASE][PASSED] - Test Cases/Top Menu - Gift cards: Test Cases/Top Menu - Gift cards
+
+2023-09-25 23:29:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-09-25 23:29:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-09-25 23:29:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-25 23:29:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-09-25 23:29:06 - [TEST_STEP][PASSED] - navigateToUrl("https://demowebshop.tricentis.com/"): Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+2023-09-25 23:29:10 - [MESSAGE][PASSED] - Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+2023-09-25 23:29:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop/a_Gift Cards")): Object: 'Object Repository/Page_Demo Web Shop/a_Gift Cards' is clicked on
+
+2023-09-25 23:29:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop/a_Gift Cards' is clicked on
+
+2023-09-25 23:29:11 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Demo Web Shop. Gift Cards/h1_Gift Cards"), 0): Object 'Object Repository/Page_Demo Web Shop. Gift Cards/h1_Gift Cards' is present
+
+2023-09-25 23:29:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-25 23:29:11 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Demo Web Shop. Gift Cards/h1_Gift Cards' is present
+
+2023-09-25 23:29:11 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Demo Web Shop. Gift Cards/h1_Gift Cards"), "Gift Cards"): Actual text and expected text of test object 'Object Repository/Page_Demo Web Shop. Gift Cards/h1_Gift Cards' are matched.
+
+2023-09-25 23:29:12 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Demo Web Shop. Gift Cards/h1_Gift Cards' are matched.
+
+2023-09-25 23:29:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-09-25 23:29:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Top Menu - Jewelry" time="10.057" classname="Test Cases/Top Menu - Jewelry" status="PASSED">
+         <system-out><![CDATA[2023-09-25 23:29:13 - [TEST_CASE][PASSED] - Test Cases/Top Menu - Jewelry: Test Cases/Top Menu - Jewelry
+
+2023-09-25 23:29:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-09-25 23:29:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-09-25 23:29:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-25 23:29:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-09-25 23:29:16 - [TEST_STEP][PASSED] - navigateToUrl("https://demowebshop.tricentis.com/"): Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+2023-09-25 23:29:20 - [MESSAGE][PASSED] - Navigate to 'https://demowebshop.tricentis.com/' successfully
+
+2023-09-25 23:29:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Demo Web Shop/a_Jewelry")): Object: 'Object Repository/Page_Demo Web Shop/a_Jewelry' is clicked on
+
+2023-09-25 23:29:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Demo Web Shop/a_Jewelry' is clicked on
+
+2023-09-25 23:29:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_Demo Web Shop. Jewelry/h1_Jewelry"), 0): Object 'Object Repository/Page_Demo Web Shop. Jewelry/h1_Jewelry' is present
+
+2023-09-25 23:29:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-09-25 23:29:21 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Demo Web Shop. Jewelry/h1_Jewelry' is present
+
+2023-09-25 23:29:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_Demo Web Shop. Jewelry/h1_Jewelry"), "Jewelry"): Actual text and expected text of test object 'Object Repository/Page_Demo Web Shop. Jewelry/h1_Jewelry' are matched.
+
+2023-09-25 23:29:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_Demo Web Shop. Jewelry/h1_Jewelry' are matched.
+
+2023-09-25 23:29:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-09-25 23:29:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-09-25 23:28:09 - [TEST_SUITE][PASSED] - Top Menu: Test Cases/Top Menu - Jewelry]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

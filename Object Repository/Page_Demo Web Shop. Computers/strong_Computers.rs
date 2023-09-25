@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>h1_Computers</name>
+   <name>strong_Computers</name>
    <tag></tag>
-   <elementGuidId>3b962443-8878-4bb5-aa0a-a6592a9151de</elementGuidId>
+   <elementGuidId>b67be87f-4676-4928-be25-5787ee8b83f2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>h1</value>
+         <value>strong.current-item</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Computers'])[4]/following::h1[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='/'])[1]/following::strong[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,8 +21,16 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>h1</value>
-      <webElementGuid>d03e24ae-9dfc-4ba7-b595-60da96d4855d</webElementGuid>
+      <value>strong</value>
+      <webElementGuid>ca030b4f-4e25-412e-8b83-2446d6835fd5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>current-item</value>
+      <webElementGuid>12945599-8af6-4c9c-8ebe-a918e0dedea0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,62 +38,62 @@
       <name>text</name>
       <type>Main</type>
       <value>Computers</value>
-      <webElementGuid>a4dfbbe7-6349-4431-ae12-0ffe178d7733</webElementGuid>
+      <webElementGuid>06e534d2-c68b-4536-a419-61fd0f06ea06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-wrapper-main&quot;]/div[@class=&quot;center-2&quot;]/div[@class=&quot;page category-page&quot;]/div[@class=&quot;page-title&quot;]/h1[1]</value>
-      <webElementGuid>7c6a9cbd-03c6-40f3-a556-3f3b84fdb6e5</webElementGuid>
+      <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-wrapper-main&quot;]/div[@class=&quot;center-2&quot;]/div[@class=&quot;breadcrumb&quot;]/ul[1]/li[2]/strong[@class=&quot;current-item&quot;]</value>
+      <webElementGuid>68490e4a-960f-4044-b151-d46fbd07f3e2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Computers'])[4]/following::h1[1]</value>
-      <webElementGuid>cd5bb04a-0d16-4bb6-b778-d348c723cf8a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='/'])[1]/following::strong[1]</value>
+      <webElementGuid>2dd5c433-1a15-49e7-96cc-6593e258e4a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='/'])[1]/following::h1[1]</value>
-      <webElementGuid>58f1d85b-0a18-4327-b6e2-b4f9e42eb4b6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::strong[1]</value>
+      <webElementGuid>1a39c2ca-2733-4806-be70-22ef86e42c62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Desktops'])[4]/preceding::h1[1]</value>
-      <webElementGuid>2118b364-21e6-4ea2-a6f1-b709717f3a49</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Computers'])[5]/preceding::strong[1]</value>
+      <webElementGuid>2d790849-cf55-48d5-b063-bbe30dcd07f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Notebooks'])[4]/preceding::h1[1]</value>
-      <webElementGuid>99398548-d3b1-47f6-84b2-42003fd29721</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Desktops'])[4]/preceding::strong[1]</value>
+      <webElementGuid>ff469427-0ab3-4536-83a0-bd954fdfa435</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//h1</value>
-      <webElementGuid>4ec42a87-cad1-415b-ba8e-edd1e226bbcd</webElementGuid>
+      <value>//li[2]/strong</value>
+      <webElementGuid>d10dc0b6-259f-45c5-bc20-f6a29e89e451</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//h1[(text() = 'Computers' or . = 'Computers')]</value>
-      <webElementGuid>15d15407-5f1b-4dfc-8171-2ce926e49540</webElementGuid>
+      <value>//strong[(text() = 'Computers' or . = 'Computers')]</value>
+      <webElementGuid>34016bd6-97f7-4ef0-9584-a4ac5857fd14</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

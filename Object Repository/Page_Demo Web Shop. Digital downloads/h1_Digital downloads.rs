@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>h1</value>
-      <webElementGuid>f142a319-6f25-4bb3-a6e2-dad6dc71a716</webElementGuid>
+      <webElementGuid>29a2bb13-db8a-42c4-ab74-d2f62314afa1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Digital downloads</value>
-      <webElementGuid>7badf3ff-2073-4436-8816-8e9c515ec773</webElementGuid>
+      <webElementGuid>f1c731db-0c41-4118-898d-b2c850a6d064</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;master-wrapper-main&quot;]/div[@class=&quot;center-2&quot;]/div[@class=&quot;page category-page&quot;]/div[@class=&quot;page-title&quot;]/h1[1]</value>
-      <webElementGuid>845bf2d3-0944-43cf-a450-54346ec3880f</webElementGuid>
+      <webElementGuid>8b348227-ff89-4947-a63b-749563d6cbea</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Digital downloads'])[4]/following::h1[1]</value>
-      <webElementGuid>aac7c885-19f3-44d3-be9f-4c8e1343d33e</webElementGuid>
+      <webElementGuid>3b55f1a0-40e0-43d4-836e-edb14ea9d6e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='/'])[1]/following::h1[1]</value>
-      <webElementGuid>20574117-7aca-48b2-ad23-fcfd5978f37c</webElementGuid>
+      <webElementGuid>04ada018-e062-4cb2-82be-2f907fface87</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View as'])[1]/preceding::h1[1]</value>
-      <webElementGuid>e8c346dc-e7d3-417c-a259-d0eb05f44fa3</webElementGuid>
+      <webElementGuid>ad254a3c-9a02-4f7a-bf1c-8fed35692304</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sort by'])[1]/preceding::h1[1]</value>
-      <webElementGuid>d74448cf-bb15-488d-907d-2a6616c5dc69</webElementGuid>
+      <webElementGuid>5f7cc4d6-df42-4c22-b98a-009ceb84f8b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//h1</value>
-      <webElementGuid>ec57fa56-eae1-46d4-8d93-bcaa8ba3acad</webElementGuid>
+      <webElementGuid>75f4fd1d-2f87-48d5-88b1-dc4ecdc9d5fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//h1[(text() = 'Digital downloads' or . = 'Digital downloads')]</value>
-      <webElementGuid>d323749d-7f87-4067-8ce0-67d7490c2b39</webElementGuid>
+      <webElementGuid>23fa894c-4dea-4334-87f4-9134149a2f5b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
