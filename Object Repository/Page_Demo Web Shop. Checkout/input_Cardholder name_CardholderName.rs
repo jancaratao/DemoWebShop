@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_Password</name>
+   <name>input_Cardholder name_CardholderName</name>
    <tag></tag>
-   <elementGuidId>60c84500-96d8-45aa-8d87-ac4785669625</elementGuidId>
+   <elementGuidId>be07aeea-92cf-4047-ba60-99c964b872ce</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#Password</value>
+         <value>#CardholderName</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='Password']</value>
+         <value>//input[@id='CardholderName']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,70 +22,78 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>797e75bf-0731-40c5-aafd-8a06725672db</webElementGuid>
+      <webElementGuid>69e17863-1e5d-406c-92c5-49df718372d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>autocomplete</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>19155d09-bc3c-402e-ad85-841ea7b0e6a0</webElementGuid>
+      <value>off</value>
+      <webElementGuid>a60a166e-f766-4bda-9533-d6af9a4087dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>Password</value>
-      <webElementGuid>00fd80a8-fe96-460a-b677-9c4798ead07c</webElementGuid>
+      <value>CardholderName</value>
+      <webElementGuid>370ecdd7-02a3-4fed-ad6a-c2cae733ca03</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>Password</value>
-      <webElementGuid>da204575-a031-4d68-961d-58dc06ecd4a8</webElementGuid>
+      <value>CardholderName</value>
+      <webElementGuid>5273a87b-7e0e-46e6-b33c-04298762a090</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>72ebb84a-5be3-4b12-a95a-0ac7480ed73c</webElementGuid>
+      <value>text</value>
+      <webElementGuid>5c823825-dd22-49a9-913c-e73e0365ea35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;Password&quot;)</value>
-      <webElementGuid>2377ed96-d0b6-4c7d-907e-619804c6a807</webElementGuid>
+      <value>id(&quot;CardholderName&quot;)</value>
+      <webElementGuid>e1279345-914b-432e-8fd7-ffa4b7a86e38</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='Password']</value>
-      <webElementGuid>52aad4b7-cc76-4790-b8b5-28ccb4d49f5b</webElementGuid>
+      <value>//input[@id='CardholderName']</value>
+      <webElementGuid>308ad195-3b9c-479b-b1be-43e3183f5ac0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='checkout-payment-info-load']/div/div/div/table/tbody/tr[2]/td[2]/input</value>
+      <webElementGuid>5b3115cc-4e76-4f4a-9f9e-93d496bbeebf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//form/div[3]/input</value>
-      <webElementGuid>5557203c-9b9a-414c-9879-da6072798bfc</webElementGuid>
+      <value>//td[2]/input</value>
+      <webElementGuid>dce5c38b-5b5f-44f3-a6bf-da566fa85d84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'Password' and @name = 'Password' and @type = 'password']</value>
-      <webElementGuid>e9769ef7-0e01-4f8f-88c0-9419d19aad6e</webElementGuid>
+      <value>//input[@id = 'CardholderName' and @name = 'CardholderName' and @type = 'text']</value>
+      <webElementGuid>d095bc8b-ed7c-46f0-b4e6-9897ae909cfc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

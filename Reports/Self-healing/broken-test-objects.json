@@ -1,3 +1,24 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Demo Web Shop. Search/span_(1)",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li[@id\u003d\u0027topcartlink\u0027]/a/span[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Demo Web Shop. Search/span_(1)_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Demo Web Shop. Checkout/select_Johnny Brav, Vienna street, Vienna 1_4c8eda",
+      "brokenLocator": "//select[(text() \u003d \u0027Johnny Brav, Vienna street, Vienna 1234, Austria\u0027 or . \u003d \u0027Johnny Brav, Vienna street, Vienna 1234, Austria\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//select[@id\u003d\u0027billing-address-select\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Demo Web Shop. Checkout/select_Johnny Brav, Vienna street, Vienna 1_4c8eda_XPATH.png"
+    }
+  ]
 }

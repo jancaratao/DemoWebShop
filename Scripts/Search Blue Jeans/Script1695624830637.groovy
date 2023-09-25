@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Login Test'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Clear Shopping Cart'), [:], FailureHandling.STOP_ON_FAILURE)
+
 WebUI.setText(findTestObject('Object Repository/Page_Demo Web Shop/input_You have no items in your shopping cart_q'), 'Blue Jeans')
 
 WebUI.click(findTestObject('Object Repository/Page_Demo Web Shop/input_You have no items in your shopping ca_bc5dba'))

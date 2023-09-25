@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Johnny Brav, Vienna street, Vienna 1_4c8eda</name>
+   <tag></tag>
+   <elementGuidId>2119041d-d8bb-473e-a85b-365518c8e4cb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#billing-address-select</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='billing-address-select']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//select[(text() = 'Johnny Brav, Vienna street, Vienna 1234, Austria' or . = 'Johnny Brav, Vienna street, Vienna 1234, Austria')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>d9e3d569-8f22-4abc-abe6-9d7490b8df2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>billing_address_id</value>
+      <webElementGuid>3920773a-a169-4877-a28e-249fe8defb29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>billing-address-select</value>
+      <webElementGuid>e2309c95-5ec0-42c3-89e2-594a09cabd2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>address-select</value>
+      <webElementGuid>d8764100-aa94-4ed7-bbfd-f2c83f1c2910</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onchange</name>
+      <type>Main</type>
+      <value>Billing.newAddress(!this.value)</value>
+      <webElementGuid>6e953d78-1294-4a8b-910c-a320fad42fad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Johnny Brav, Vienna street, Vienna 1234, Austria</value>
+      <webElementGuid>d56cb716-2078-4cd3-aeb9-76bacdd1d79a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;billing-address-select&quot;)</value>
+      <webElementGuid>33cadb20-8f9e-4a44-90e5-3a4471bc38e2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='billing-address-select']</value>
+      <webElementGuid>52031288-333c-4b0a-acc7-6abd2a75a05f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='checkout-billing-load']/div/div/div/select</value>
+      <webElementGuid>fb41a95a-41b3-4a10-bbdd-8a634c1fbe07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select a billing address from your address book or enter a new address.'])[1]/following::select[1]</value>
+      <webElementGuid>7f5712c5-89d5-42e3-943c-03326e5c1d9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Billing address'])[1]/following::select[1]</value>
+      <webElementGuid>e3758e60-622c-4b4e-8344-0ebc5cd33754</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='First name:'])[1]/preceding::select[1]</value>
+      <webElementGuid>a8423dea-22cb-4c1b-8592-700c9460b163</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/preceding::select[1]</value>
+      <webElementGuid>580afaf5-fccd-42b9-91b9-8c8c36b6111b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>0f117016-d7b9-4484-a020-2041b36e04fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'billing_address_id' and @id = 'billing-address-select' and (text() = '
+                        Johnny Brav, Vienna street, Vienna 1234, Austria
+                    New Address
+                ' or . = '
+                        Johnny Brav, Vienna street, Vienna 1234, Austria
+                    New Address
+                ')]</value>
+      <webElementGuid>49fb0c88-5997-4d8f-9b4f-0183a1c5e379</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

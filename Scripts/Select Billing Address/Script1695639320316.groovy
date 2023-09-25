@@ -17,17 +17,10 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Search Blue Jeans'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Checkout Blue Jeans'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Demo Web Shop. Search/input_Jeans_button-2 product-box-add-to-car_50ee1e'))
+WebUI.click(findTestObject('Page_Demo Web Shop. Checkout/btnContinueBillingAddress'))
 
-WebUI.delay(10)
-
-WebUI.click(findTestObject('Object Repository/Page_Demo Web Shop. Search/span_Shopping cart'))
-
-WebUI.navigateToUrl('https://demowebshop.tricentis.com/cart')
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Demo Web Shop. Shopping Cart/h1_Shopping cart'), 'Shopping cart')
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Demo Web Shop. Shopping Cart/a_Blue Jeans'), 0)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Demo Web Shop. Checkout/label_Select a shipping address from your a_0e5e9b'), 
+    0)
 

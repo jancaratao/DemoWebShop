@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_RememberMe</name>
+   <name>input_Fax number_PickUpInStore</name>
    <tag></tag>
-   <elementGuidId>64d237c0-b2d5-4e6c-9aa8-27a6ee521366</elementGuidId>
+   <elementGuidId>b0026590-32bb-462b-8cc1-18729d9c22e8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#RememberMe</value>
+         <value>#PickUpInStore</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='RememberMe']</value>
+         <value>//input[@id='PickUpInStore']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,23 +22,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>bdeaa966-c0ca-437a-aebb-490f341a507d</webElementGuid>
+      <webElementGuid>57a2313b-49df-49bb-ac6c-09e6a78d0ee4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>RememberMe</value>
-      <webElementGuid>770dac8d-67a7-4f31-aec7-dadaea268e96</webElementGuid>
+      <value>PickUpInStore</value>
+      <webElementGuid>8d35934b-5b36-458a-ae6b-95a50d851f60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>RememberMe</value>
-      <webElementGuid>2028d1fa-7156-4600-a43a-85058a0e3f01</webElementGuid>
+      <value>PickUpInStore</value>
+      <webElementGuid>4d6b1654-cc42-4669-9a72-9f4f25f2c616</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>Shipping.togglePickUpInStore(this)</value>
+      <webElementGuid>23af0dff-df13-4bb2-97f0-33ad904366d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +54,7 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>38c20e6a-8455-4d37-9a26-45d5d8b7c21b</webElementGuid>
+      <webElementGuid>d570f2c7-b9d4-4394-bc84-94a2693a6d26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,38 +62,46 @@
       <name>value</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>f08f381d-091c-47e7-bea3-29cafa69a5d5</webElementGuid>
+      <webElementGuid>bfd85836-6555-4e0d-8ed4-b3990dcc125a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;RememberMe&quot;)</value>
-      <webElementGuid>f9ed26af-afdb-4df4-ace5-730b5c9a1d8e</webElementGuid>
+      <value>id(&quot;PickUpInStore&quot;)</value>
+      <webElementGuid>1f2166a1-48de-41aa-b37b-48e4e7878833</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='RememberMe']</value>
-      <webElementGuid>c7e76042-09c2-41b0-9778-34435d772184</webElementGuid>
+      <value>//input[@id='PickUpInStore']</value>
+      <webElementGuid>a05d65b2-f612-47b3-ad2b-e3ad590df798</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='checkout-shipping-load']/div/div[2]/p/input</value>
+      <webElementGuid>9fc10aae-cf83-4b09-8fe8-c0fc59f474d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[4]/input</value>
-      <webElementGuid>28e7cd4c-7ca7-4da2-ba02-5f38a667b576</webElementGuid>
+      <value>//p/input</value>
+      <webElementGuid>7d8f6890-689a-4344-ad8a-8af8dad207b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'RememberMe' and @name = 'RememberMe' and @type = 'checkbox']</value>
-      <webElementGuid>3fe3a483-26c3-4d78-8c34-d22c0a9c9f61</webElementGuid>
+      <value>//input[@id = 'PickUpInStore' and @name = 'PickUpInStore' and @type = 'checkbox']</value>
+      <webElementGuid>b9afe793-9bd5-4065-9a53-a922b50ce826</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

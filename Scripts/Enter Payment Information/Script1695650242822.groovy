@@ -17,17 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Search Blue Jeans'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Select Payment Method'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Object Repository/Page_Demo Web Shop. Search/input_Jeans_button-2 product-box-add-to-car_50ee1e'))
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Demo Web Shop. Checkout/select_VisaMaster cardDiscoverAmex'), 
+    'Visa', true)
 
-WebUI.delay(10)
+WebUI.setText(findTestObject('Object Repository/Page_Demo Web Shop. Checkout/input_Cardholder name_CardholderName'), 'Johnny Bravo')
 
-WebUI.click(findTestObject('Object Repository/Page_Demo Web Shop. Search/span_Shopping cart'))
+WebUI.setText(findTestObject('Object Repository/Page_Demo Web Shop. Checkout/input_Card number_CardNumber'), '1111222233334444')
 
-WebUI.navigateToUrl('https://demowebshop.tricentis.com/cart')
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Demo Web Shop. Checkout/select_202320242025202620272028202920302031_99023a'), 
+    '2023', true)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Demo Web Shop. Shopping Cart/h1_Shopping cart'), 'Shopping cart')
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Demo Web Shop. Checkout/select_202320242025202620272028202920302031_99023a'), 
+    '2025', true)
 
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Demo Web Shop. Shopping Cart/a_Blue Jeans'), 0)
+WebUI.setText(findTestObject('Object Repository/Page_Demo Web Shop. Checkout/input_Card code_CardCode'), '123')
+
+WebUI.click(findTestObject('Object Repository/Page_Demo Web Shop. Checkout/btnContinueEnterPaymentInformation'))
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/Page_Demo Web Shop. Checkout/strong_Billing Address'), 0)
 

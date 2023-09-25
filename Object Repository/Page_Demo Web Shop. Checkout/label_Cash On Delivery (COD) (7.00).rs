@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Log in</name>
+   <name>label_Cash On Delivery (COD) (7.00)</name>
    <tag></tag>
-   <elementGuidId>b63a7af6-a4b8-4b9a-a1ca-9813791d8786</elementGuidId>
+   <elementGuidId>19a474af-fc07-48b4-a601-fee341d690af</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>a.ico-login</value>
+         <value>div.payment-details > label</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Log in')]</value>
+         <value>//div[@id='checkout-payment-method-load']/div/div/ul/li/div/div[2]/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,103 +21,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>a</value>
-      <webElementGuid>87d8f227-872f-420e-be8f-9d307381aaf1</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>href</name>
-      <type>Main</type>
-      <value>/login</value>
-      <webElementGuid>ee8df93d-52e2-4de4-96d4-77f9752b2ae4</webElementGuid>
+      <value>label</value>
+      <webElementGuid>fb72f4ea-905f-49fa-94f5-18652adde062</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>for</name>
       <type>Main</type>
-      <value>ico-login</value>
-      <webElementGuid>7b13eb2c-e609-4a39-9cbc-bdb08bcd685d</webElementGuid>
+      <value>paymentmethod_0</value>
+      <webElementGuid>b6bf8ddd-3cbd-48c2-a44c-47ec1535e218</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Log in</value>
-      <webElementGuid>6d5c58fb-d062-4fcf-869e-96e264a83ef7</webElementGuid>
+      <value>Cash On Delivery (COD) (7.00)</value>
+      <webElementGuid>63680829-4b87-4644-8628-e8d18428df54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[1]/div[@class=&quot;master-wrapper-page&quot;]/div[@class=&quot;master-wrapper-content&quot;]/div[@class=&quot;header&quot;]/div[@class=&quot;header-links-wrapper&quot;]/div[@class=&quot;header-links&quot;]/ul[1]/li[2]/a[@class=&quot;ico-login&quot;]</value>
-      <webElementGuid>f6650e12-6ae9-4b2e-bdc4-f5c270c58c81</webElementGuid>
+      <value>id(&quot;checkout-payment-method-load&quot;)/div[@class=&quot;checkout-data&quot;]/div[@class=&quot;section payment-method&quot;]/ul[@class=&quot;method-list&quot;]/li[1]/div[@class=&quot;method-name&quot;]/div[@class=&quot;payment-details&quot;]/label[1]</value>
+      <webElementGuid>0dce7c6d-d4ec-4548-8686-d83e38004171</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:link</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Log in')]</value>
-      <webElementGuid>88db8346-df11-402c-ad5c-71aefd5a3e34</webElementGuid>
+      <value>//div[@id='checkout-payment-method-load']/div/div/ul/li/div/div[2]/label</value>
+      <webElementGuid>74a22275-5ff8-4989-96ed-6d837889dc15</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register'])[1]/following::a[1]</value>
-      <webElementGuid>8cc0dfb8-12a1-4005-b87c-417aa7d5f4ea</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment method'])[1]/following::label[2]</value>
+      <webElementGuid>853c8e72-388d-45e2-8ad8-4fe9b324f67c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shopping cart'])[1]/preceding::a[1]</value>
-      <webElementGuid>50daaea0-1b5c-40ea-8c5e-c9689e14412f</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Loading next step...'])[3]/following::label[2]</value>
+      <webElementGuid>1f2b4286-5261-43fb-83f6-b60fdeb33bde</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='(0)'])[1]/preceding::a[1]</value>
-      <webElementGuid>5ae21621-a600-48d2-b443-d3cbc9095b7a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Check / Money Order (5.00)'])[1]/preceding::label[2]</value>
+      <webElementGuid>a8879e95-c7da-4b46-b0a8-c8bca03dd949</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Log in']/parent::*</value>
-      <webElementGuid>254a755e-e5aa-4700-ad23-8e89d554b026</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Credit Card'])[1]/preceding::label[4]</value>
+      <webElementGuid>a376ef11-6a74-466a-baef-2921fdab0f0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//a[contains(@href, '/login')]</value>
-      <webElementGuid>ecfde5b2-06b8-41eb-a6b3-05adfb1b42ec</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Cash On Delivery (COD) (7.00)']/parent::*</value>
+      <webElementGuid>2a58aeec-8516-488d-9e74-1b12647ce925</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[2]/a</value>
-      <webElementGuid>302f8b6a-d6a6-40b4-a1a6-4cd716def0cd</webElementGuid>
+      <value>//li/div/div[2]/label</value>
+      <webElementGuid>21fb919e-72d1-49d1-a9a2-7307e32eb271</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = '/login' and (text() = 'Log in' or . = 'Log in')]</value>
-      <webElementGuid>f6bd94fc-4703-4dac-8c70-fb8914a184f2</webElementGuid>
+      <value>//label[(text() = 'Cash On Delivery (COD) (7.00)' or . = 'Cash On Delivery (COD) (7.00)')]</value>
+      <webElementGuid>97e7cf4f-44a0-4046-9d7a-bf8995df259a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
