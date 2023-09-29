@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.Rectangle as Rectangle
 
 WebUI.openBrowser('')
 
@@ -26,6 +27,8 @@ WebUI.click(findTestObject('Object Repository/Page_Demo Web Shop/a_Gift Cards'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Demo Web Shop. Gift Cards/h1_Gift Cards'), 0)
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Demo Web Shop. Gift Cards/h1_Gift Cards'), 'Gift Cards')
+
+WebUI.takeAreaScreenshotAsCheckpoint('visual_test', new Rectangle(701, 200, 150, 150))
 
 WebUI.closeBrowser()
 
