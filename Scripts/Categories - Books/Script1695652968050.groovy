@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.Rectangle as Rectangle
 
 WebUI.openBrowser('')
 
@@ -24,6 +25,8 @@ WebUI.navigateToUrl('https://demowebshop.tricentis.com/')
 WebUI.click(findTestObject('Object Repository/Page_Demo Web Shop/a_Books'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Demo Web Shop. Books/h1_Books'), 'Books')
+
+WebUI.takeAreaScreenshotAsCheckpoint('visual_test', new Rectangle(701, 200, 150, 150))
 
 WebUI.closeBrowser()
 
