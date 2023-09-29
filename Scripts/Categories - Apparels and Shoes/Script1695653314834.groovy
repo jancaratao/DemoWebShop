@@ -28,7 +28,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Demo Web Shop.
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Demo Web Shop. Apparel  Shoes/h1_Apparel  Shoes'), 'Apparel & Shoes')
 
-WebUI.takeAreaScreenshotAsCheckpoint('visual_test', new Rectangle(601, 466, 150, 150))
+WebUI.takeAreaScreenshotAsCheckpoint('visual_test', new Rectangle(701, 200, 150, 150))
 
 WebUI.closeBrowser()
 
